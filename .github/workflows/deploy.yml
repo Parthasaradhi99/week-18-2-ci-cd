@@ -24,7 +24,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: 100xdevs/web-app:latest  # Replace with your Docker Hub username and repository
+        tags: madmax219/nextapp  # Replace with your Docker Hub username and repository
 
     - name: Verify Pushed Image
-      run: docker pull 100xdevs/web-app:latest  # Replace with your Docker Hub username and repository
+      run: docker pull madmax219/nextapp  # Replace with your Docker Hub username and repository
